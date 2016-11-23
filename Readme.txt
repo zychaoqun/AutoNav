@@ -13,15 +13,14 @@ https://www.youtube.com/watch?v=Gl0BN86T7Tw
 
 Tested under Ubuntu 14.04, using ROS Indigo. 
 
-##Required packages:
-#ardrone_autonomy by Mani Monajemmi, 
+Required packages:
+ardrone_autonomy by Mani Monajemmi, 
 the ROS API for controlling the AR Drone 2.0. and receiving sensor data and video
 stream.
-#ardrone_tutorials by Mike Hamer. This package includes code for flying the AR Drone 2.0. with the keyboard.
+ardrone_tutorials by Mike Hamer. This package includes code for flying the AR Drone 2.0. with the keyboard.
 ORB-SLAM (Raúl Mur-Artal, 2015). The specific fork I used was bmagyar/ORB_SLAM.
 
- ArdroneFrontSettings.yaml in the "Settings" folder should be pasted in ORB_SLAM/orb_slam/Data and the ORB_SLAM/orb_slam/launch/orb_slam.launch should be replaced with the orb_slam.launch found in the Settings folder. These changes shall remap the 
-front camera topic of the AR Drone 2.0 to the input of ORB-SLAM. 
+ ArdroneFrontSettings.yaml in the "Settings" folder should be pasted in ORB_SLAM/orb_slam/Data and the ORB_SLAM/orb_slam/launch/orb_slam.launch should be replaced with the orb_slam.launch found in the Settings folder. These changes shall remap the front camera topic of the AR Drone 2.0 to the input of ORB-SLAM. 
 The controller package and the tf_pose package should be left in catkin_ws/src.  
 
 3. Usage
