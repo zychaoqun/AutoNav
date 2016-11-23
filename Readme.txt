@@ -3,19 +3,21 @@ This is a ROS package for the autonomous flight of the Parrot AR Drone 2.0 using
 1. Related paper. Please, refer to the following paper whenever you make use of this free code.
 J. Martinez-Carranza, Nils Lowen, F. Marquez, E.O. García Rodriguez, W. Mayol-Cuevas. Towards Autonomous Flight of Micro Aerial Vehicles using ORB-SLAM. IEEE 3rd Workshop on Research, Education and Development of Unmanned Aerial Systems. RED-UAS 2015. Cancún, México. November, 2015.
 
-The paper can be found under the following link: https://ccc.inaoep.mx/~carranza/articles/reduas15AF.pdf
+The paper can be found under the following link:   
+https://ccc.inaoep.mx/~carranza/articles/reduas15AF.pdf
 
-Video:
+Video:  
 https://www.youtube.com/watch?v=Gl0BN86T7Tw
 
 2. Installation
 
 Tested under Ubuntu 14.04, using ROS Indigo. 
 
-Required packages:
-ardrone_autonomy by Mani Monajemmi, the ROS API for controlling the AR Drone 2.0. and receiving sensor data and video
+##Required packages:
+#ardrone_autonomy by Mani Monajemmi, 
+the ROS API for controlling the AR Drone 2.0. and receiving sensor data and video
 stream.
-ardrone_tutorials by Mike Hamer. This package includes code for flying the AR Drone 2.0. with the keyboard.
+#ardrone_tutorials by Mike Hamer. This package includes code for flying the AR Drone 2.0. with the keyboard.
 ORB-SLAM (Raúl Mur-Artal, 2015). The specific fork I used was bmagyar/ORB_SLAM.
 
  ArdroneFrontSettings.yaml in the "Settings" folder should be pasted in ORB_SLAM/orb_slam/Data and the ORB_SLAM/orb_slam/launch/orb_slam.launch should be replaced with the orb_slam.launch found in the Settings folder. These changes shall remap the 
