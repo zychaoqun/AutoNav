@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=Gl0BN86T7Tw
 
 Tested under Ubuntu 14.04, using ROS Indigo. 
 
-Required packages:
+*Required packages:*
 ardrone_autonomy by Mani Monajemmi, 
 the ROS API for controlling the AR Drone 2.0. and receiving sensor data and video
 stream.
